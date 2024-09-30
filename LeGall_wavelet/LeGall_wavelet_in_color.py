@@ -1,13 +1,9 @@
 
-import PIL.Image
 import numpy as np
-from numpy import ndarray
-from typing import List, Tuple
-from scipy.ndimage import convolve
 import imageio
-from TimCogan_LeGall_wavelet import WaveletImage
 import matplotlib.pyplot as plt
-import PIL
+from TimCogan_LeGall_wavelet import WaveletImage
+import PIL.Image
 
 sourceimage = imageio.v3.imread("ducks.png")
 plt.figure("Source image")

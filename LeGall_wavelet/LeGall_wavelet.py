@@ -1,8 +1,5 @@
 
 import numpy as np
-from numpy import ndarray
-from typing import List, Tuple
-from scipy.ndimage import convolve
 import imageio
 import matplotlib.pyplot as plt
 from TimCogan_LeGall_wavelet import WaveletImage
